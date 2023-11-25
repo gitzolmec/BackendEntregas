@@ -98,7 +98,7 @@ class ProductManager {
 
 // ========================== TESTING =========================================
 
-(async () => {
+Testing = (async () => {
   // Creamos una instancia de la clase "ProductManager" con un archivo específico
   const productManager = await new ProductManager("productos.json");
 
